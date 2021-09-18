@@ -1,0 +1,26 @@
+.header {
+    background-color: #464646;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 15px;
+    box-sizing: border-box;
+}
+
+.header__logo a {
+    font-size: 30px;
+}
+
+.header__menu {
+    display: flex;
+}
+
+.header__menu li {
+    padding-right: 10px;
+    padding-left: 10px;
+}

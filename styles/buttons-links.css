@@ -1,0 +1,45 @@
+input[type="submit"],
+.single-advert-edit {
+    padding: 5px 10px;
+    background-color: #343a40;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.single-advert-edit {
+    max-width: 500px;
+    width: 100%;
+}
+
+.single-advert-edit:hover,
+input[type="submit"]:hover {
+    opacity: .6;
+}
+
+a, a:visited,
+.author__name {
+    font-weight: bold;
+    text-decoration: none;
+    color: #ff8013;
+}
+
+a:hover {
+    opacity: .75;
+}
+
+.advert__title a {
+    color: #343a40;
+}
+
+.link__edit,
+.link__delete {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #464635;
+    text-align: center;
+}
+
+.link__delete:hover {
+    background-color: #FF0012;
+    color: #000000;
+}

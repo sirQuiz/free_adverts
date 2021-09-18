@@ -1,0 +1,32 @@
+.main-content {
+    display: flex;
+    height: inherit;
+}
+
+.main-content .add-advert {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.users-list {
+    min-width: 180px;
+    background-color: #282828;
+    padding: 5px 10px;
+}
+
+.users-list .user {
+    margin-bottom: 15px;
+}
+
+.users-list .user__avatar,
+.users-list .user__avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.common-content {
+    width: 100%;
+}

@@ -1,0 +1,81 @@
+.advert {
+    max-width: 800px;
+    margin: 15px auto;
+    padding: 10px;
+    border: 5px solid darkgray;
+}
+
+.advert__thumbnail-wrapper .advert__thumbnail {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.advert__text-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.advert__title {
+    font-size: 30px;
+}
+
+.advert__title a:hover {
+    color: #ff8013;
+}
+
+.advert__description {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.advert__date {
+    align-self: flex-end;
+    font-weight: bold;
+    color: #343a40;
+}
+
+.advert-edit-forms {
+    width: 500px;
+    margin: auto;
+}
+
+.edit-form {
+    display: none;
+}
+
+.edit-form.edit-form--shown {
+    display: block;
+}
+
+.comments {
+    padding: 0 10px;
+}
+
+.comment-single {
+    margin: 10px 0;
+    padding: 10px;
+    border: 4px dotted #464635;
+}
+
+.author__avatar-wrapper .author__avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.author__avatar-wrapper .author__name {
+    background-color: #cccccc;
+}
+
+.comments {
+    width: 750px;
+    margin: auto;
+}
+
+.comment-single .comment-text {
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px dashed darkgray;
+}

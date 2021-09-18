@@ -1,0 +1,30 @@
+.comment-form {
+    margin-bottom: 20px;
+}
+
+.comment-form form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 15px auto;
+}
+
+.form-wrapper form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.form-wrapper form input[type="file"] {
+    width: 100%;
+    background-color: #282828;
+    color: #cccccc;
+}
+
+
+.search-form form {
+    flex-direction: row;
+    width: 250px;
+}
